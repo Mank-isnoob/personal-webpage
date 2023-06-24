@@ -147,6 +147,8 @@ button {
 .highlight {
   background-color: var(--highlight-color);
   color: white;
+  display: inline-block;
+  padding: 0.2em;
 }
 
 
