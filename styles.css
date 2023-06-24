@@ -34,6 +34,7 @@ body {
   --clr-fg: #272D2D;
   --clr-fg-alt: #272D2D;
   --clr-primary: #23CE6B;
+  --highlight-color: #23CE6B;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -43,6 +44,7 @@ body {
   --clr-fg: #F4F1DE;
   --clr-fg-alt: #F5D0C5;
   --clr-primary: #FB2576;
+  --highlight-color: #FB2576;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -51,6 +53,7 @@ body {
   background: var(--clr-primary);
   color: var(--clr-bg);
 }
+
 
 ::-webkit-selection,
 ::selection {
@@ -140,6 +143,11 @@ button {
   color: var(--clr-fg);
   font-size: 1.2rem;
 }
+
+.highlight {
+  background-color: var(--highlight-color);
+}
+
 
 .btn {
   display: block;
@@ -258,6 +266,10 @@ main {
 }
 
 .about__name {
+  color: var(--clr-primary);
+}
+
+.b1-color {
   color: var(--clr-primary);
 }
 
