@@ -146,6 +146,7 @@ button {
 
 .highlight {
   background-color: var(--highlight-color);
+  color:white;
 }
 
 
