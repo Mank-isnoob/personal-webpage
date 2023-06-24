@@ -4,7 +4,7 @@
 
 ## Preview
 
-[See Live](https://mank-isnoob.github.io/personal-webpage/)
+[See Live](https://www.mankisnoob.wtf/)
 
 ## License
 
